@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<geometry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <partition>
+
+    <cell idx="10115">
+      <polygon>
+        <point x="63"  y="52"  t="2"/>
+        <point x="70"  y="52"  t="2"/>
+        <point x="70"  y="59"  t="2"/>
+        <point x="63"  y="59"  t="0" s="1" c="10213" o="1"/>
+      </polygon>
+    </cell>
+
+    <cell idx="10213">
+      <polygon>
+        <point x="54"  y="50"  t="0" s="20" c="1036" o="10"/>
+        <point x="58"  y="50"  t="0" s="21" c="1036" o="11"/>
+        <point x="63"  y="50"  t="2"/>
+        <point x="63"  y="52"  t="0" s="1" c="10115" o="1"/>
+        <point x="63"  y="59"  t="2"/>
+        <point x="54"  y="59"  t="2"/>
+      </polygon>
+    </cell>
+    
+    <cell idx="1036">
+      <polygon>
+        <point x="50"  y="35"  t="2"/>
+        <point x="65"  y="35"  t="0" s="20" c="1047" o="10"/>
+        <point x="65"  y="43"  t="0" s="21" c="1047" o="11"/>
+        <point x="65"  y="50"  t="2"/>
+        <point x="63"  y="50"  t="0" s="11" c="10213" o="21"/>
+        <point x="58"  y="50"  t="0" s="10" c="10213" o="20"/>
+        <point x="54"  y="50"  t="2"/>
+        <point x="50"  y="50"  t="2"/>
+      </polygon>
+    </cell>
+
+    <cell idx="1047">
+      <polygon>
+        <point x="65"  y="35"  t="2"/>
+        <point x="82"  y="35"  t="2"/>
+        <point x="82"  y="52"  t="0" s="20" c="10516" o="10"/>
+        <point x="76"  y="52"  t="0" s="21" c="10516" o="11"/>
+        <point x="70"  y="52"  t="2"/>
+        <point x="65"  y="52"  t="2"/>
+        <point x="65"  y="50"  t="0" s="11" c="1036" o="21"/>
+        <point x="65"  y="43"  t="0" s="10" c="1036" o="20"/>
+      </polygon>
+    </cell>
+
+    <cell idx="10516">
+      <polygon>
+        <point x="70"  y="52"  t="0" s="11" c="1047" o="21"/>
+        <point x="76"  y="52"  t="0" s="10" c="1047" o="20"/>
+        <point x="82"  y="52"  t="2"/>
+        <point x="88"  y="52"  t="2"/>
+        <point x="88"  y="70"  t="2"/>
+        <point x="70"  y="70"  t="0"  s="20" c="10617" o="10"/>
+        <point x="70"  y="65"  t="0"  s="21" c="10617" o="11"/>
+        <point x="70"  y="59"  t="2"/>
+      </polygon>
+    </cell>
+
+    <cell idx="10617">
+      <polygon>
+        <point x="54"  y="59"  t="2"/>
+        <point x="70"  y="59"  t="0" s="11" c="10516" o="21"/>
+        <point x="70"  y="65"  t="0" s="10" c="10516" o="20"/>
+        <point x="70"  y="70"  t="2" />
+        <point x="70"  y="75"  t="2"/>
+        <point x="54"  y="75"  t="0" s="20" c="10712" o="10"/>
+        <point x="54"  y="65"  t="0" s="21" c="10712" o="11"/>
+      </polygon>
+    </cell>
+    
+    <cell idx="10712">
+      <polygon>
+        <point x="29"  y="50"  t="0" s="20" c="1081" o="10"/>
+        <point x="40"  y="50"  t="0" s="21" c="1081" o="11"/>
+        <point x="50"  y="50"  t="2"/>
+        <point x="54"  y="50"  t="2"/>
+        <point x="54"  y="59"  t="0" s="11" c="10617" o="21"/>
+        <point x="54"  y="65"  t="0" s="10" c="10617" o="20"/>
+        <point x="54"  y="75"  t="2"/>
+        <point x="29"  y="75"  t="2"/>
+      </polygon>
+    </cell>
+    
+    <cell idx="1081">
+      <polygon>
+        <point x="0"  y="0"  t="2"/>
+        <point x="50"  y="0"  t="0" s="20" c="1092" o="10"/>
+        <point x="50"  y="10"  t="0" s="21" c="1092" o="11"/>
+        <point x="50"  y="20"  t="0" s="22" c="1092" o="12"/>
+        <point x="50"  y="30"  t="0" s="23" c="1092" o="13"/>
+        <point x="50"  y="35"  t="2"/>
+        <point x="50"  y="50"  t="0" s="11" c="10712" o="21"/>
+        <point x="40"  y="50"  t="0" s="10" c="10712" o="20"/>
+        <point x="29"  y="50"  t="2"/>
+        <point x="0"  y="50"  t="2"/>
+      </polygon>
+    </cell>
+
+    <cell idx="1092">
+      <polygon>
+        <point x="50"  y="0"  t="2"/>
+        <point x="85"  y="0"  t="0" s="20" c="1103" o="10"/>
+        <point x="85"  y="10"  t="0" s="21" c="1103" o="11"/>
+        <point x="85"  y="20"  t="0" s="22" c="1103" o="12"/>
+        <point x="85"  y="27"  t="2"/>
+        <point x="85"  y="35"  t="2"/>
+        <point x="50"  y="35"  t="0" s="13" c="1081" o="23"/>
+        <point x="50"  y="30"  t="0" s="12" c="1081" o="22"/>
+        <point x="50"  y="20"  t="0" s="11" c="1081" o="21"/>
+        <point x="50"  y="10"  t="0" s="10" c="1081" o="20"/>
+      </polygon>
+    </cell>
+
+    <cell idx="1103">
+      <polygon>
+        <point x="85"  y="0"  t="2" />
+        <point x="112"  y="0"  t="2"/>
+        <point x="112"  y="27"  t="0" s="20" c="1115" o="10"/>
+        <point x="100"  y="27"  t="0" s="21" c="1115" o="11"/>
+        <point x="93"  y="27"  t="2"/>
+        <point x="85"  y="27"  t="0" s="12" c="1092" o="22"/>
+        <point x="85"  y="20"  t="0" s="11" c="1092" o="21"/>
+        <point x="85"  y="10"  t="0" s="10" c="1092" o="20"/>
+      </polygon>
+    </cell>
+
+    <cell idx="1115">
+      <polygon>
+        <point x="93"  y="27"  t="0" s="11" c="1103" o="21"/>
+        <point x="100"  y="27"  t="0" s="10" c="1103" o="20"/>
+        <point x="112"  y="27"  t="2"/>
+        <point x="112"  y="46"  t="0" s="20" c="11210" o="10"/>
+        <point x="100"  y="46"  t="0" s="21" c="11210" o="11"/>
+        <point x="93"  y="46"  t="2"/>
+      </polygon>
+    </cell>
+
+
+    <cell idx="11210">
+      <polygon>
+        <point x="88"  y="46"  t="2"/>
+        <point x="93"  y="46"  t="0" s="11" c="1115" o="21"/>
+        <point x="100"  y="46"  t="0" s="10" c="1115" o="20"/>
+        <point x="112"  y="46"  t="2"/>
+        <point x="112"  y="70"  t="0" s="20" c="11318" o="10"/>
+        <point x="100"  y="70"  t="0" s="21" c="11318" o="11"/>
+        <point x="88"  y="70"  t="2"/>
+      </polygon>
+    </cell>
+
+    <cell idx="11318">
+      <polygon>
+        <point x="70"  y="70"  t="2"/>
+        <point x="88"  y="70"  t="0" s="11" c="11210" o="21"/>
+        <point x="100"  y="70"  t="0" s="10" c="11210" o="20"/>
+        <point x="112"  y="70"  t="2"/>
+        <point x="112"  y="112"  t="2"/>
+        <point x="70"  y="112"  t="0" s="20" c="11420" o="10"/>
+        <point x="70"  y="100"  t="0" s="21" c="11420" o="11"/>
+        <point x="70"  y="90"  t="0" s="22" c="11420" o="12"/>
+        <point x="70"  y="80"  t="0" s="23" c="11420" o="13"/>
+        <point x="70"  y="75"  t="2"/>
+      </polygon>
+    </cell>
+    
+    <cell idx="11420">
+      <polygon>
+        <point x="33"  y="75"  t="2"/>
+        <point x="70"  y="75"  t="0" s="13" c="11318" o="23"/>
+        <point x="70"  y="80"  t="0" s="12" c="11318" o="22"/>
+        <point x="70"  y="90"  t="0" s="11" c="11318" o="21"/>
+        <point x="70"  y="100"  t="0" s="10" c="11318" o="20"/>
+        <point x="70"  y="112"  t="2"/>
+        <point x="33"  y="112"  t="0" s="20" c="11521" o="10"/>
+        <point x="33"  y="100"  t="0" s="21" c="11521" o="11"/>
+        <point x="33"  y="90"  t="0" s="22" c="11521" o="12"/>
+        <point x="33"  y="80"  t="0" s="23" c="11521" o="13"/>
+        <point x="33"  y="79"  t="2"/>
+      </polygon>
+    </cell>
+
+    <cell idx="11521">
+      <polygon>
+        <point x="0"  y="79"  t="2"/>
+        <point x="19"  y="79"  t="0" s="2" c="11611" o="1"/>
+        <point x="29"  y="79"  t="2"/>
+        <point x="33"  y="79"  t="0" s="13" c="11420" o="23"/>
+        <point x="33"  y="80"  t="0" s="12" c="11420" o="22"/>
+        <point x="33"  y="90"  t="0" s="11" c="11420" o="21"/>
+        <point x="33"  y="100"  t="0" s="10" c="11420" o="20"/>
+        <point x="33"  y="112"  t="2"/>
+        <point x="0"  y="112"  t="2"/>
+      </polygon>
+    </cell>
+    
+    <cell idx="11611">
+      <polygon>
+        <point x="0"  y="50"  t="2"/>
+        <point x="29"  y="50"  t="2"/>
+        <point x="29"  y="79"  t="0" s="1" c="11521" o="2"/>
+        <point x="19"  y="79"  t="2"/>
+        <point x="0"  y="79"  t="2"/>
+        <point x="0"  y="59"  t="1"/>
+      </polygon>
+    </cell>
+
+    <!-- <cell idx="4"> -->
+    <!--   <polygon> -->
+    <!--     <point x="85"  y="27"  t="1"/> -->
+    <!--     <point x="93"  y="27"  t="2"/> -->
+    <!--     <point x="93"  y="35"  t="2"/> -->
+    <!--     <point x="85"  y="35"  t="2"/> -->
+    <!--   </polygon> -->
+    <!-- </cell> -->
+
+    <!-- <cell idx="8"> -->
+    <!--   <polygon> -->
+    <!--     <point x="82"  y="35"  t="1"/> -->
+    <!--     <point x="93"  y="35"  t="2"/> -->
+    <!--     <point x="93"  y="46"  t="2"/> -->
+    <!--     <point x="82"  y="46"  t="2"/> -->
+    <!--   </polygon> -->
+    <!-- </cell> -->
+
+    <!-- <cell idx="9"> -->
+    <!--   <polygon> -->
+    <!--     <point x="82"  y="46"  t="1"/> -->
+    <!--     <point x="88"  y="46"  t="2"/> -->
+    <!--     <point x="88"  y="52"  t="2"/> -->
+    <!--     <point x="82"  y="52"  t="2"/> -->
+    <!--   </polygon> -->
+    <!-- </cell> -->
+
+    <!-- <cell idx="14"> -->
+    <!--   <polygon> -->
+    <!--     <point x="63"  y="50"  t="1"/> -->
+    <!--     <point x="65"  y="50"  t="2"/> -->
+    <!--     <point x="65"  y="52"  t="2"/> -->
+    <!--     <point x="63"  y="52"  t="2"/> -->
+    <!--   </polygon> -->
+    <!-- </cell> -->
+
+    <!-- <cell idx="19"> -->
+    <!--   <polygon> -->
+    <!--     <point x="29"  y="75"  t="1"/> -->
+    <!--     <point x="33"  y="75"  t="2"/> -->
+    <!--     <point x="33"  y="79"  t="2"/> -->
+    <!--     <point x="29"  y="79"  t="2"/> -->
+    <!--   </polygon> -->
+    <!-- </cell> -->
+    
+  </partition>
+</geometry>
